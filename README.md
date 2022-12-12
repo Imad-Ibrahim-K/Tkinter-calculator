@@ -23,6 +23,24 @@ picture Tkinter4.png
 Set tex state to DISABLE to make Tkinter text read only
 [text_display.configure(state='disabled')]
 
+Final igot pass the value to screen by using lambda function
+Python Lambda Functions are anonymous function means that the function is
+ without a name. As we already know that the def keyword is used to define
+ a normal function in Python. Similarly, the lambda keyword is used to 
+define an anonymous function in Python.
+
+[
+
+def on_click(text):
+    text_display.insert(0, text)
+
+
+Bt1 = Button(window, text=" 1 ", command=lambda: on_click("1"))
+Bt1.pack()
+
+]
+
+
 
 
 
