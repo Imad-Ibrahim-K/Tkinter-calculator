@@ -40,6 +40,8 @@ Bt1.pack()
 
 ]
 
+set text left to right (justify = right)
+
 
 
 
