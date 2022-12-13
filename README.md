@@ -42,6 +42,9 @@ Bt1.pack()
 
 set text left to right (justify = right)
 
+added minimum and maximum size of window (350 x 500)
+i change minimun and maximum size of window (350 x 500) to resizable(0, 0) so we 
+can't change window size
 
 
 
