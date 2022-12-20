@@ -29,7 +29,19 @@ but_frame = Frame(window, width=312, height=272.5, bg="grey")
 #
 Bt1 = Button(window, text=" 1 ", command=lambda: on_click("1"))
 Bt2 = Button(window, text=" 2 ", command=lambda: on_click("2"))
-Btm = Button(window, text=" - ", command=lambda: on_click("-"))
+Bt3 = Button(window, text=" 3 ", command=lambda: on_click("3"))
+Bt4 = Button(window, text=" 4 ", command=lambda: on_click("4"))
+Bt5 = Button(window, text=" 5 ", command=lambda: on_click("5"))
+Bt6 = Button(window, text=" 6 ", command=lambda: on_click("6"))
+Bt7 = Button(window, text=" 7 ", command=lambda: on_click("7"))
+Bt8 = Button(window, text=" 8 ", command=lambda: on_click("8"))
+Bt9 = Button(window, text=" 9 ", command=lambda: on_click("9"))
+Bt0 = Button(window, text=" 0 ", command=lambda: on_click("0"))
+
+Btdiv = Button(window, text=" / ", command=lambda: on_click("/"))
+Btadd = Button(window, text=" + ", command=lambda: on_click("+"))
+Btminus = Button(window, text=" - ", command=lambda: on_click("-"))
+
 Btc = Button(window, text=" C ", command=lambda: clear())
 
 #
