@@ -8,7 +8,7 @@ Then i added mainloop() for loop the window,
 and Window size sett to (350 x 500), Added text height and width [window = tk.Text(window, height=1, width=30)]
 and also i added font size (60) [font="size=60"]
 
-![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter2.png)
+<!-- ![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter2.png) -->
 
 and i give padding to text 
 [wind = tk.Text(window, height=1, width=30, font="size=60")
