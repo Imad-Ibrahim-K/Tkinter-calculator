@@ -2,27 +2,26 @@ Here i used pycham.
 First i import Tkinter module (Tkinter is a GUI library for Python),
 after that i used Tk() (Tk is interface) Then 
 
-add pic Tkinter1.png
 ![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter1.png)
 
 Then i added mainloop() for loop the window,
 and Window size sett to (350 x 500), Added text height and width [window = tk.Text(window, height=1, width=30)]
 and also i added font size (60) [font="size=60"]
 
-picture Tkinter2.png
+![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter2.png)
 
 and i give padding to text 
 [wind = tk.Text(window, height=1, width=30, font="size=60")
 wind.pack(pady=10)]
 
-picture Tkinter.3
+![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter3.png)
 
 after i (added padx =20)
 
-picture Tkinter4.png
+![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter4.png)
 
 Set tex state to DISABLE to make Tkinter text read only
-[text_display.configure(state='disabled')]
+window.configure(state='DISABLE')]
 
 Final igot pass the value to screen by using lambda function
 Python Lambda Functions are anonymous function means that the function is
