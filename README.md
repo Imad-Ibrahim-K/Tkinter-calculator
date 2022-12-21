@@ -3,6 +3,7 @@ First i import Tkinter module (Tkinter is a GUI library for Python),
 after that i used Tk() (Tk is interface) Then 
 
 add pic Tkinter1.png
+![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/image/Tkinter1.png)
 
 Then i added mainloop() for loop the window,
 and Window size sett to (350 x 500), Added text height and width [window = tk.Text(window, height=1, width=30)]
