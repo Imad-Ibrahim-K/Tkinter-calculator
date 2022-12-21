@@ -14,11 +14,11 @@ and i give padding to text
 [wind = tk.Text(window, height=1, width=30, font="size=60")
 wind.pack(pady=10)]
 
-![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter3.png)
+<!-- ![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter3.png) -->
 
 after i (added padx =20)
 
-![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter4.png)
+<!-- ![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Tkinter4.png) -->
 
 Set tex state to DISABLE to make Tkinter text read only
 window.configure(state='DISABLE')]
