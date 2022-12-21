@@ -48,7 +48,7 @@ can't change window size,created textvariable as text_values to set output to di
 
 last output
 
-![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Screeshort(21).png)
+![alt text](https://github.com/Imad-Ibrahim-K/Tkinter-calculator/blob/main/images/Screeshort (21).png)
 
 
 
