@@ -62,7 +62,7 @@ Btx = Button(window, text=" * ", command=lambda: on_click("*"), width=7, height=
 
 Btq = Button(window, text=" = ", command=lambda: equalto(), width=16, height=2)
 Btc = Button(window, text=" C ", command=lambda: clear(), width=16, height=2, background="red")
-Btdel = Button(window, text=" ⇦ ", command=lambda: back(), width=16, height=2)
+Btdel = Button(window, text=" ⇦ ", command=lambda: back(), width=7, height=2)
 
 
 Bt7.grid(row=2, column=1, padx=2, pady=5)
@@ -84,8 +84,9 @@ Btadd.grid(row=4, column=4)
 Btminus.grid(row=3, column=4)
 Btx.grid(row=2, column=4, padx=2)
 
-Btc.grid(row=1, column=1, columnspan=2, padx=5, pady=5)
-Btdel.grid(row=1, column=3, columnspan=2, pady=5, padx=4)
+Btdiv.grid(row=1, column=4, padx=4)
+Btc.grid(row=1, column=1, columnspan=2, padx=5, pady=3)
+Btdel.grid(row=1, column=3, padx=4)
 Btq.grid(row=5, column=3, columnspan=2)
 
 window.mainloop()
